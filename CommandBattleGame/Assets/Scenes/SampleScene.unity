@@ -3311,7 +3311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 918304cf2db05a94fa9464f634c6308b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CharacterAttack: 0
+  CharacterAttack: 5
   IsEnemy: 0
   CharacterHP: 5
   CharacterMp: 5
@@ -3342,13 +3342,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 918304cf2db05a94fa9464f634c6308b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CharacterAttack: 0
+  CharacterAttack: 5
   IsEnemy: 0
   CharacterHP: 5
   CharacterMp: 5
   CharacterSpeed: 120
-  CharacterType: 0
-  CharacterAnimationController: {fileID: 0}
+  CharacterType: 2
+  CharacterAnimationController: {fileID: 1407619233}
+--- !u!95 &1407619230 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 447153284189674766, guid: a21fc92918bb3464e9027867170543fa,
+    type: 3}
+  m_PrefabInstance: {fileID: 1801788387}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1407619233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407619224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35d85a2b97d2cde4e8c9cee222c0c07a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CharacterAnimator: {fileID: 1407619230}
+  CharacterRoot: {fileID: 2102621600}
+  AttackRoot: {fileID: 1900832763}
+  m_CharacterParamManager: {fileID: 0}
+  t_CharacterParammanager: {fileID: 0}
+  characterType: 0
 --- !u!4 &1425099565 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 876584715502083843, guid: d6a6275e985c5b7488fc85317a008e7a,
@@ -4834,10 +4858,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 918304cf2db05a94fa9464f634c6308b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CharacterAttack: 0
+  CharacterAttack: 5
   IsEnemy: 0
   CharacterHP: 5
   CharacterMp: 5
   CharacterSpeed: 200
   CharacterType: 0
-  CharacterAnimationController: {fileID: 0}
+  CharacterAnimationController: {fileID: 2139598707}
+--- !u!95 &2139598704 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2040872947511726831, guid: 6d301ab642c3acc4da7ae50ed837339e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1594255846}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2139598707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139598698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35d85a2b97d2cde4e8c9cee222c0c07a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CharacterAnimator: {fileID: 2139598704}
+  CharacterRoot: {fileID: 965836127}
+  AttackRoot: {fileID: 1900832763}
+  m_CharacterParamManager: {fileID: 0}
+  t_CharacterParammanager: {fileID: 0}
+  characterType: 3
